@@ -1,7 +1,7 @@
 # Hadoop E-Commerce Activity
 
 Contents:
-- `code/mapper.py`: reads transaction rows and emits customer-level partial statistics.
+- `code/mapper.py`: reads sales rows and emits customer-level partial statistics.
 - `code/combiner.py`: locally sums mapper output fields.
 - `code/reducer.py`: final customer aggregation and classification.
 - `output/customer_analysis.csv`: locally computed expected output for all customers.
